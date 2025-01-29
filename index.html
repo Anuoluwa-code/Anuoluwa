@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an account form</title>
+</head>
+<body>
+  <h1>create an account to get started</h1>
+  <style>
+    
+  </style>
+
+  <form>
+    <fieldset>
+      <legend>Personnal information</legend>
+      <ul>
+        <li>
+          <label for="fname">full name</label>
+          <input type="text" name="fname" id="fname" required>
+          </li>
+
+        <li>
+          <label for="email">email address</label>
+          <input type="email" name="e-address" id="email" required>
+        </li>
+        <li>
+          <label for="date of birth">date of birth</label>
+          <input type="date" name="dob" id="date_of_birth" required>
+        </li>
+        <li>
+          <label for="address">address</label>
+          <input type="text" name="address" id="address" maxlength="50" required>
+        </li>
+        <li>
+          <label for="phone number
+          
+         
+          <input type="radio" name="female" id="female"><br>
+          <label for="female">female</label>
+           </li>
+           <li>
+            <p>marital status</p>
+            <input type="radio" name="single" id="single">
+            <label for="single">single</label>
+             </li>
+           <li>
+            <input type="radio" name="married" id="married">
+            <label for="married">married</label>
+           </li>
+           <li>
+            <input type="radio" name="divorce" id="divorced">
+            <label for="divorced">divorced</label>
+           </li>
+           <li>
+            <input type="radio" name="widows" id="widows">
+            <label for="widows">widows</label>
+           </li>
+           <li>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+           </li>
+           <li>
+            <span>state of origin</span>
+            <select name="state of origin" id="states">
+              <optgroup>
+              <option value="lagos" selected>lagos</option>
+              <option value="ogun">ogun</option>
+            </optgroup>
+            <optgroup>
+              <option value="lokoja">lokoja</option>
+              <option value="kano">kano</option>
+            </optgroup>
+            </select>
+           </li>
+      </ul>
+
+    </fieldset>
+    <fieldset>
+      <legend>professionla information</legend>
+      <ul>
+        <li>
+          <span>hobbies</span><br>
+          <input type="checkbox" name="hobbies" id="reading">
+          <label for="reading">reading</label><br>
+          <input type="checkbox" name="hobbies" id="singing">
+          <label for="singing">singing</label><br>
+          <input type="checkbox" name="hobbies" id="football">
+          <label for="football">football</label><br>
+          <input type="checkbox" name="hobbies" id="swimming">
+          <label for="swimming">swimming</label><br>
+          <input type="checkbox" name="hobbies" id="chess">
+          <label for="chess">chess</label><br>
+        </li>
+        <li>
+          <input type="text" name="institution" id="institution" placeholder="institution attended">
+        </li>
+        <li>
+          <label for="cv">resume</label>
+          <input type="file" name="resume" id="cv" accept=".png,.jpg" multiple>
+        </li>
+        <li> <label for="photo">picture</label>
+          <input type="file" name="photo" id="photo" accept=".png,.jpg" multiple></li>
+          <li>
+            <input type="image" src="./index.html" alt="html logo" title="html">
+          </li>
+          <li>
+            <label for="exp">years of experience</label>
+          </li>
+      </ul>
+    </fieldset>
+
+  </form>
+
+</body>
+</html>
